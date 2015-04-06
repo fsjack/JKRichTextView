@@ -19,13 +19,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self.textView setText:@"Mention @iamjackiecheung if you use JKRichTextView in your project[lol]. Thanks[cry]"];
+    [self.textView setText:@"Mention @iamjackiecheung if you use JKRichTextView in your project[lol]. Thanks[cry]."];
     [self.textView setCustomLinkWithLinkDidTappedCallback:^BOOL (NSURL *linkURL) {
         
         [[[UIAlertView alloc] initWithTitle:nil message:@"Thank you for using JKRichTextView" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles: nil] show];
         return YES;
         
     } forTextAtRange:[self.textView.text rangeOfString:@"JKRichTextView"]];
+    
+    
+    [self.textView insertImage:[UIImage imageNamed:@"JKRichTextView"] size:CGSizeMake(280, 293) atIndex:0];
 }
 
 - (void)viewDidLayoutSubviews {

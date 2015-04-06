@@ -242,6 +242,14 @@ static CGSize const JKRichTextViewInvalidedIntrinsicContentSize = (CGSize){-1, -
     [self.textStorage endEditing];
 }
 
+- (void)insertImage:(UIImage *)image size:(CGSize)size atIndex:(NSUInteger)index {
+    NSTextAttachment *attachment = [[NSTextAttachment alloc] initWithData:nil ofType:nil];
+    attachment.image = image;
+    attachment.bounds = CGRectMake(0, 0, size.width, size.height);
+    
+    [self insertTextAttachment:attachment atIndex:index baselineAjustment:YES];
+}
+
 - (void)insertTextAttachment:(NSTextAttachment *)attachment atIndex:(NSUInteger)index {
     [self insertTextAttachment:attachment atIndex:index baselineAjustment:NO];
 }
@@ -255,13 +263,12 @@ static CGSize const JKRichTextViewInvalidedIntrinsicContentSize = (CGSize){-1, -
 - (void)insertTextAttachment:(NSTextAttachment *)attachment forAttributedText:(NSMutableAttributedString *)attributedText atIndex:(NSUInteger)index baselineAjustment:(BOOL)baselineAjustment {
     NSParameterAssert(attachment);
     
-    UIFont *font = [attributedText attribute:NSFontAttributeName atIndex:index effectiveRange:NULL];
-    
     NSAttributedString *imageAttributeString = [NSAttributedString attributedStringWithAttachment:attachment];
     [attributedText insertAttributedString:imageAttributeString atIndex:index];
     
-    if(baselineAjustment) {
-        /** Adjust attribute text baseline offset, because attachment image will be insert above baseline.  */
+    if(baselineAjustment && self.text.length >= index+1) {
+        /** Adjust attribute text baseline offset, because attachment image will be inserted above baseline.  */
+        UIFont *font = [attributedText attribute:NSFontAttributeName atIndex:index effectiveRange:NULL];
         [attributedText addAttribute:NSBaselineOffsetAttributeName value:@(font.descender) range:NSMakeRange(index, 1)];
     }
 }

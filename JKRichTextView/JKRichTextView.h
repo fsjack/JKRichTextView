@@ -113,6 +113,8 @@ extern NSString * const JKRichTextViewDetectedDataHandlerAttributeName;
 
 - (void)setCustomLink:(NSURL *)url forTextAtRange:(NSRange)textRange;
 
+- (void)insertImage:(UIImage *)image size:(CGSize)size atIndex:(NSUInteger)index;
+
 - (void)insertTextAttachment:(NSTextAttachment *)attachment atIndex:(NSUInteger)index;
 
 - (void)insertTextAttachment:(NSTextAttachment *)attachment atIndex:(NSUInteger)index baselineAjustment:(BOOL)baselineAjustment;
