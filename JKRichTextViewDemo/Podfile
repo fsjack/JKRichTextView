@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'JKRichTextViewDemo' do
+  pod 'DCIntrospect-ARC'
+end
+
+target 'JKRichTextViewDemoTests' do
+
+end
+

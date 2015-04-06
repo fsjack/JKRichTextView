@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A99221613FA2BD0E1D27F3C /* DCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA8A91B60EB6D5ACE9F9520 /* DCTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3CF008C61BDCC4749B2FB637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF94EED123A37EFD5C5D5453 /* Foundation.framework */; };
+		522E46160DF1EB46EF1014E8 /* UIView+DCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E061AA20E96ECBF04EA98D /* UIView+DCAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		548EA403F9CC9A9657425727 /* DCFrameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1762DABAB0CF4A3FEAE82EEB /* DCFrameView.h */; };
+		86A323E6C225EC0371C6188C /* DCCrossHairView.m in Sources */ = {isa = PBXBuildFile; fileRef = B70C4F3193AD20CF3B05FB81 /* DCCrossHairView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89BC573ADF02B911FCE94789 /* Pods-JKRichTextViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D06BE682658573B02DB70375 /* Pods-JKRichTextViewDemo-dummy.m */; };
+		91EA28D7A3F3FFCDD02A279C /* DCFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38A3CAC9DBFEA3B6DC8515 /* DCFrameView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A976A0706559A4B3A972B427 /* DCCrossHairView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A8DA0F30098ACE7733ADB4E /* DCCrossHairView.h */; };
+		AE88600AAFF86E055F45B46E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF94EED123A37EFD5C5D5453 /* Foundation.framework */; };
+		BE210994878E93474CAB1CF1 /* DCStatusBarOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BDDCD4965DA2E95F5FF549 /* DCStatusBarOverlay.h */; };
+		BF3B0C3DDA754A49C8FA098E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7778DEE7245665407E725384 /* QuartzCore.framework */; };
+		C16A52D3432B415F63741D9D /* DCTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 526DABDFCEFDE4B941002E82 /* DCTextView.h */; };
+		CF56115FCD5E0A70F84E9931 /* UIView+DCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3C1D76EEAE92EEBE47FCF5 /* UIView+DCAdditions.h */; };
+		D056E16797B8ABE98990D4AF /* DCIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E90889CD23294B32C0D41BC /* DCIntrospect.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D54CAEB377FF6D4C987D2260 /* DCIntrospectSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22F6FDD73CAB2CB75633D9 /* DCIntrospectSettings.h */; };
+		DC904A14488FCBBDFB4738F5 /* DCStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EA2FD0DE54695F118336E3 /* DCStatusBarOverlay.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F743ADC57F6AE128D31E2861 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F5EBBC9621C037F784707 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-dummy.m */; };
+		F9B216A9A1AC96CD042AB8CA /* DCIntrospect.h in Headers */ = {isa = PBXBuildFile; fileRef = 985AB7CFA165D32E882EDCD3 /* DCIntrospect.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A613788FEFC1BCBF13686E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A179BFB0093DEB9A4C8B07A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A307413A7546C6A26FC28250;
+			remoteInfo = "Pods-JKRichTextViewDemo-DCIntrospect-ARC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1762DABAB0CF4A3FEAE82EEB /* DCFrameView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCFrameView.h; path = "DCIntrospect-ARC/DCFrameView.h"; sourceTree = "<group>"; };
+		1AA8A91B60EB6D5ACE9F9520 /* DCTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCTextView.m; path = "DCIntrospect-ARC/DCTextView.m"; sourceTree = "<group>"; };
+		1E90889CD23294B32C0D41BC /* DCIntrospect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCIntrospect.m; path = "DCIntrospect-ARC/DCIntrospect.m"; sourceTree = "<group>"; };
+		2C38A3CAC9DBFEA3B6DC8515 /* DCFrameView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCFrameView.m; path = "DCIntrospect-ARC/DCFrameView.m"; sourceTree = "<group>"; };
+		35C794FF18882549A15C6A44 /* Pods-JKRichTextViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKRichTextViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3952408307CFFB0CB8115EBD /* Pods-JKRichTextViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKRichTextViewDemo-resources.sh"; sourceTree = "<group>"; };
+		3B5D21A37C552243357658F0 /* Pods-JKRichTextViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKRichTextViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		421C3B9ECFDE19855DEACBC4 /* libPods-JKRichTextViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKRichTextViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BDDCD4965DA2E95F5FF549 /* DCStatusBarOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCStatusBarOverlay.h; path = "DCIntrospect-ARC/DCStatusBarOverlay.h"; sourceTree = "<group>"; };
+		526DABDFCEFDE4B941002E82 /* DCTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCTextView.h; path = "DCIntrospect-ARC/DCTextView.h"; sourceTree = "<group>"; };
+		5E3C1D76EEAE92EEBE47FCF5 /* UIView+DCAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DCAdditions.h"; path = "DCIntrospect-ARC/UIView+DCAdditions.h"; sourceTree = "<group>"; };
+		61E061AA20E96ECBF04EA98D /* UIView+DCAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DCAdditions.m"; path = "DCIntrospect-ARC/UIView+DCAdditions.m"; sourceTree = "<group>"; };
+		75EA2FD0DE54695F118336E3 /* DCStatusBarOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCStatusBarOverlay.m; path = "DCIntrospect-ARC/DCStatusBarOverlay.m"; sourceTree = "<group>"; };
+		7778DEE7245665407E725384 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7A8DA0F30098ACE7733ADB4E /* DCCrossHairView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCCrossHairView.h; path = "DCIntrospect-ARC/DCCrossHairView.h"; sourceTree = "<group>"; };
+		8726DC2A971B35A09D10100E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C22F6FDD73CAB2CB75633D9 /* DCIntrospectSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCIntrospectSettings.h; path = "DCIntrospect-ARC/DCIntrospectSettings.h"; sourceTree = "<group>"; };
+		985AB7CFA165D32E882EDCD3 /* DCIntrospect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCIntrospect.h; path = "DCIntrospect-ARC/DCIntrospect.h"; sourceTree = "<group>"; };
+		AAA895855C2C4BE4163DF917 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKRichTextViewDemo-DCIntrospect-ARC-prefix.pch"; sourceTree = "<group>"; };
+		B0DCC5016C824AB878AA9EDE /* libPods-JKRichTextViewDemo-DCIntrospect-ARC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKRichTextViewDemo-DCIntrospect-ARC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12935535B8D78C6FF6CD5F8 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKRichTextViewDemo-DCIntrospect-ARC-Private.xcconfig"; sourceTree = "<group>"; };
+		B70C4F3193AD20CF3B05FB81 /* DCCrossHairView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCCrossHairView.m; path = "DCIntrospect-ARC/DCCrossHairView.m"; sourceTree = "<group>"; };
+		C1F551B4494971E3E04A70CA /* Pods-JKRichTextViewDemo-DCIntrospect-ARC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKRichTextViewDemo-DCIntrospect-ARC.xcconfig"; sourceTree = "<group>"; };
+		D06BE682658573B02DB70375 /* Pods-JKRichTextViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKRichTextViewDemo-dummy.m"; sourceTree = "<group>"; };
+		DFD77A1CC2E2951E5A4804BF /* Pods-JKRichTextViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKRichTextViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E03D726B2D00E6AD570DECC3 /* Pods-JKRichTextViewDemo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKRichTextViewDemo-environment.h"; sourceTree = "<group>"; };
+		E09F5EBBC9621C037F784707 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKRichTextViewDemo-DCIntrospect-ARC-dummy.m"; sourceTree = "<group>"; };
+		EF94EED123A37EFD5C5D5453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3A641E0F0298DC831B3646E /* Pods-JKRichTextViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKRichTextViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C86DF9489FE0F5E6FAE8CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF008C61BDCC4749B2FB637 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C8EC7EAC1F6D393A71BDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE88600AAFF86E055F45B46E /* Foundation.framework in Frameworks */,
+				BF3B0C3DDA754A49C8FA098E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4DE4919D02152B47ECEF8D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22AAB7ADE74FA17ABD606CD /* Pods-JKRichTextViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		901B3378F039489BEAA893C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421C3B9ECFDE19855DEACBC4 /* libPods-JKRichTextViewDemo.a */,
+				B0DCC5016C824AB878AA9EDE /* libPods-JKRichTextViewDemo-DCIntrospect-ARC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9078E70F3AFB9B50E8DD8F24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E746BAE63971A925DB870ED3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8CAB08F62C905DB197BF81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1F551B4494971E3E04A70CA /* Pods-JKRichTextViewDemo-DCIntrospect-ARC.xcconfig */,
+				B12935535B8D78C6FF6CD5F8 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-Private.xcconfig */,
+				E09F5EBBC9621C037F784707 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-dummy.m */,
+				AAA895855C2C4BE4163DF917 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JKRichTextViewDemo-DCIntrospect-ARC";
+			sourceTree = "<group>";
+		};
+		C26A388EA0AE8D865A965BF9 /* DCIntrospect-ARC */ = {
+			isa = PBXGroup;
+			children = (
+				7A8DA0F30098ACE7733ADB4E /* DCCrossHairView.h */,
+				B70C4F3193AD20CF3B05FB81 /* DCCrossHairView.m */,
+				1762DABAB0CF4A3FEAE82EEB /* DCFrameView.h */,
+				2C38A3CAC9DBFEA3B6DC8515 /* DCFrameView.m */,
+				985AB7CFA165D32E882EDCD3 /* DCIntrospect.h */,
+				1E90889CD23294B32C0D41BC /* DCIntrospect.m */,
+				8C22F6FDD73CAB2CB75633D9 /* DCIntrospectSettings.h */,
+				45BDDCD4965DA2E95F5FF549 /* DCStatusBarOverlay.h */,
+				75EA2FD0DE54695F118336E3 /* DCStatusBarOverlay.m */,
+				526DABDFCEFDE4B941002E82 /* DCTextView.h */,
+				1AA8A91B60EB6D5ACE9F9520 /* DCTextView.m */,
+				5E3C1D76EEAE92EEBE47FCF5 /* UIView+DCAdditions.h */,
+				61E061AA20E96ECBF04EA98D /* UIView+DCAdditions.m */,
+				BD8CAB08F62C905DB197BF81 /* Support Files */,
+			);
+			path = "DCIntrospect-ARC";
+			sourceTree = "<group>";
+		};
+		D22AAB7ADE74FA17ABD606CD /* Pods-JKRichTextViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				35C794FF18882549A15C6A44 /* Pods-JKRichTextViewDemo-acknowledgements.markdown */,
+				DFD77A1CC2E2951E5A4804BF /* Pods-JKRichTextViewDemo-acknowledgements.plist */,
+				D06BE682658573B02DB70375 /* Pods-JKRichTextViewDemo-dummy.m */,
+				E03D726B2D00E6AD570DECC3 /* Pods-JKRichTextViewDemo-environment.h */,
+				3952408307CFFB0CB8115EBD /* Pods-JKRichTextViewDemo-resources.sh */,
+				F3A641E0F0298DC831B3646E /* Pods-JKRichTextViewDemo.debug.xcconfig */,
+				3B5D21A37C552243357658F0 /* Pods-JKRichTextViewDemo.release.xcconfig */,
+			);
+			name = "Pods-JKRichTextViewDemo";
+			path = "Target Support Files/Pods-JKRichTextViewDemo";
+			sourceTree = "<group>";
+		};
+		E65FC793C0F1B63DA344A885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C26A388EA0AE8D865A965BF9 /* DCIntrospect-ARC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E746BAE63971A925DB870ED3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF94EED123A37EFD5C5D5453 /* Foundation.framework */,
+				7778DEE7245665407E725384 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F82878B8DA99D87D5897467B = {
+			isa = PBXGroup;
+			children = (
+				8726DC2A971B35A09D10100E /* Podfile */,
+				9078E70F3AFB9B50E8DD8F24 /* Frameworks */,
+				E65FC793C0F1B63DA344A885 /* Pods */,
+				901B3378F039489BEAA893C2 /* Products */,
+				4C4DE4919D02152B47ECEF8D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD5161B6B7B9562367531D66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A976A0706559A4B3A972B427 /* DCCrossHairView.h in Headers */,
+				548EA403F9CC9A9657425727 /* DCFrameView.h in Headers */,
+				F9B216A9A1AC96CD042AB8CA /* DCIntrospect.h in Headers */,
+				D54CAEB377FF6D4C987D2260 /* DCIntrospectSettings.h in Headers */,
+				BE210994878E93474CAB1CF1 /* DCStatusBarOverlay.h in Headers */,
+				C16A52D3432B415F63741D9D /* DCTextView.h in Headers */,
+				CF56115FCD5E0A70F84E9931 /* UIView+DCAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A307413A7546C6A26FC28250 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA387D9A160507711D20B09 /* Build configuration list for PBXNativeTarget "Pods-JKRichTextViewDemo-DCIntrospect-ARC" */;
+			buildPhases = (
+				4FDD5D881CAA6193D45D24FF /* Sources */,
+				C7C8EC7EAC1F6D393A71BDF4 /* Frameworks */,
+				AD5161B6B7B9562367531D66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JKRichTextViewDemo-DCIntrospect-ARC";
+			productName = "Pods-JKRichTextViewDemo-DCIntrospect-ARC";
+			productReference = B0DCC5016C824AB878AA9EDE /* libPods-JKRichTextViewDemo-DCIntrospect-ARC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B5620A16943F93CD7615E3C7 /* Pods-JKRichTextViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBB5E00BE1E697C639F861D /* Build configuration list for PBXNativeTarget "Pods-JKRichTextViewDemo" */;
+			buildPhases = (
+				0FFC8D44EE6768483B13E355 /* Sources */,
+				49C86DF9489FE0F5E6FAE8CF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0129A0351F43356E03C60A /* PBXTargetDependency */,
+			);
+			name = "Pods-JKRichTextViewDemo";
+			productName = "Pods-JKRichTextViewDemo";
+			productReference = 421C3B9ECFDE19855DEACBC4 /* libPods-JKRichTextViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A179BFB0093DEB9A4C8B07A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 0505329DB81CA02C30C7D2B3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F82878B8DA99D87D5897467B;
+			productRefGroup = 901B3378F039489BEAA893C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5620A16943F93CD7615E3C7 /* Pods-JKRichTextViewDemo */,
+				A307413A7546C6A26FC28250 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FFC8D44EE6768483B13E355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BC573ADF02B911FCE94789 /* Pods-JKRichTextViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDD5D881CAA6193D45D24FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A323E6C225EC0371C6188C /* DCCrossHairView.m in Sources */,
+				91EA28D7A3F3FFCDD02A279C /* DCFrameView.m in Sources */,
+				D056E16797B8ABE98990D4AF /* DCIntrospect.m in Sources */,
+				DC904A14488FCBBDFB4738F5 /* DCStatusBarOverlay.m in Sources */,
+				3A99221613FA2BD0E1D27F3C /* DCTextView.m in Sources */,
+				F743ADC57F6AE128D31E2861 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-dummy.m in Sources */,
+				522E46160DF1EB46EF1014E8 /* UIView+DCAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B0129A0351F43356E03C60A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JKRichTextViewDemo-DCIntrospect-ARC";
+			target = A307413A7546C6A26FC28250 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC */;
+			targetProxy = A613788FEFC1BCBF13686E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57D4D32E24C9B70B1E75A1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A641E0F0298DC831B3646E /* Pods-JKRichTextViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		57FAAE9CB2074D1654626C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B85196EA769BD72AD7952BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5D21A37C552243357658F0 /* Pods-JKRichTextViewDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9EE11767B3E23F3A466D5DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12935535B8D78C6FF6CD5F8 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKRichTextViewDemo-DCIntrospect-ARC/Pods-JKRichTextViewDemo-DCIntrospect-ARC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC3CC930F5F3974345FCD153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12935535B8D78C6FF6CD5F8 /* Pods-JKRichTextViewDemo-DCIntrospect-ARC-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JKRichTextViewDemo-DCIntrospect-ARC/Pods-JKRichTextViewDemo-DCIntrospect-ARC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7DC2DDC4EBEF7ED7E43548A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0505329DB81CA02C30C7D2B3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DC2DDC4EBEF7ED7E43548A /* Debug */,
+				57FAAE9CB2074D1654626C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA387D9A160507711D20B09 /* Build configuration list for PBXNativeTarget "Pods-JKRichTextViewDemo-DCIntrospect-ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3CC930F5F3974345FCD153 /* Debug */,
+				9EE11767B3E23F3A466D5DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBB5E00BE1E697C639F861D /* Build configuration list for PBXNativeTarget "Pods-JKRichTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D4D32E24C9B70B1E75A1E8 /* Debug */,
+				5B85196EA769BD72AD7952BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A179BFB0093DEB9A4C8B07A /* Project object */;
+}

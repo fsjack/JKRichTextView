@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171834179DB79389389370F7 /* libPods-JKRichTextViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5950B1E4E5BAF93F469C9CD /* libPods-JKRichTextViewDemo.a */; };
+		8C34570F1AD29F4500E3163A /* JKMyRichTextViewDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C34570E1AD29F4500E3163A /* JKMyRichTextViewDataHandler.m */; };
+		8C3457131AD2A00C00E3163A /* emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C3457121AD2A00C00E3163A /* emoji.plist */; };
+		8CFCBD6C1AC001EE009492B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD6B1AC001EE009492B3 /* main.m */; };
+		8CFCBD6F1AC001EE009492B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD6E1AC001EE009492B3 /* AppDelegate.m */; };
+		8CFCBD721AC001EE009492B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD711AC001EE009492B3 /* ViewController.m */; };
+		8CFCBD751AC001EE009492B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCBD731AC001EE009492B3 /* Main.storyboard */; };
+		8CFCBD771AC001EE009492B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCBD761AC001EE009492B3 /* Images.xcassets */; };
+		8CFCBD7A1AC001EE009492B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCBD781AC001EE009492B3 /* LaunchScreen.xib */; };
+		8CFCBD861AC001EE009492B3 /* JKRichTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD851AC001EE009492B3 /* JKRichTextViewDemoTests.m */; };
+		8CFCBD9D1AC001FA009492B3 /* JKRegularExpressionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD911AC001FA009492B3 /* JKRegularExpressionParser.m */; };
+		8CFCBD9E1AC001FA009492B3 /* JKRichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD931AC001FA009492B3 /* JKRichTextView.m */; };
+		8CFCBD9F1AC001FA009492B3 /* JKRichTextViewEmojiDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD951AC001FA009492B3 /* JKRichTextViewEmojiDataHandler.m */; };
+		8CFCBDA01AC001FA009492B3 /* JKRichTextViewLinkBlockDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD971AC001FA009492B3 /* JKRichTextViewLinkBlockDataHandler.m */; };
+		8CFCBDA11AC001FA009492B3 /* JKRichTextViewLinkDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBD991AC001FA009492B3 /* JKRichTextViewLinkDataHandler.m */; };
+		8CFCBDA81AC002DE009492B3 /* JKDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCBDA71AC002DE009492B3 /* JKDelegateProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CFCBD801AC001EE009492B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CFCBD5E1AC001EE009492B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CFCBD651AC001EE009492B3;
+			remoteInfo = JKRichTextViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A58F897B6A6C4C18A38194D /* Pods-JKRichTextViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKRichTextViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKRichTextViewDemo/Pods-JKRichTextViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8C3457031AD281AD00E3163A /* JKRegularExpressionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRegularExpressionParser.h; sourceTree = "<group>"; };
+		8C34570D1AD29F4500E3163A /* JKMyRichTextViewDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMyRichTextViewDataHandler.h; sourceTree = "<group>"; };
+		8C34570E1AD29F4500E3163A /* JKMyRichTextViewDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMyRichTextViewDataHandler.m; sourceTree = "<group>"; };
+		8C3457121AD2A00C00E3163A /* emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emoji.plist; sourceTree = "<group>"; };
+		8CFCBD661AC001EE009492B3 /* JKRichTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRichTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFCBD6A1AC001EE009492B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFCBD6B1AC001EE009492B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CFCBD6D1AC001EE009492B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CFCBD6E1AC001EE009492B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CFCBD701AC001EE009492B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CFCBD711AC001EE009492B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CFCBD741AC001EE009492B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CFCBD761AC001EE009492B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CFCBD791AC001EE009492B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8CFCBD7F1AC001EE009492B3 /* JKRichTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRichTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFCBD841AC001EE009492B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFCBD851AC001EE009492B3 /* JKRichTextViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRichTextViewDemoTests.m; sourceTree = "<group>"; };
+		8CFCBD911AC001FA009492B3 /* JKRegularExpressionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JKRegularExpressionParser.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CFCBD921AC001FA009492B3 /* JKRichTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = JKRichTextView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CFCBD931AC001FA009492B3 /* JKRichTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JKRichTextView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CFCBD941AC001FA009492B3 /* JKRichTextViewEmojiDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = JKRichTextViewEmojiDataHandler.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CFCBD951AC001FA009492B3 /* JKRichTextViewEmojiDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JKRichTextViewEmojiDataHandler.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CFCBD961AC001FA009492B3 /* JKRichTextViewLinkBlockDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = JKRichTextViewLinkBlockDataHandler.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CFCBD971AC001FA009492B3 /* JKRichTextViewLinkBlockDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JKRichTextViewLinkBlockDataHandler.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CFCBD981AC001FA009492B3 /* JKRichTextViewLinkDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = JKRichTextViewLinkDataHandler.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8CFCBD991AC001FA009492B3 /* JKRichTextViewLinkDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = JKRichTextViewLinkDataHandler.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8CFCBDA61AC002DE009492B3 /* JKDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDelegateProxy.h; sourceTree = "<group>"; };
+		8CFCBDA71AC002DE009492B3 /* JKDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDelegateProxy.m; sourceTree = "<group>"; };
+		C5950B1E4E5BAF93F469C9CD /* libPods-JKRichTextViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKRichTextViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED805F2C04C1EE85AF9B4533 /* Pods-JKRichTextViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKRichTextViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKRichTextViewDemo/Pods-JKRichTextViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CFCBD631AC001EE009492B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171834179DB79389389370F7 /* libPods-JKRichTextViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFCBD7C1AC001EE009492B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69CBBCB53AB3BBF4F2014276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5950B1E4E5BAF93F469C9CD /* libPods-JKRichTextViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CFCBD5D1AC001EE009492B3 = {
+			isa = PBXGroup;
+			children = (
+				8CFCBD681AC001EE009492B3 /* JKRichTextViewDemo */,
+				8CFCBD821AC001EE009492B3 /* JKRichTextViewDemoTests */,
+				8CFCBD671AC001EE009492B3 /* Products */,
+				EF1C8BEFF63A7602D8216B3E /* Pods */,
+				69CBBCB53AB3BBF4F2014276 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CFCBD671AC001EE009492B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CFCBD661AC001EE009492B3 /* JKRichTextViewDemo.app */,
+				8CFCBD7F1AC001EE009492B3 /* JKRichTextViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CFCBD681AC001EE009492B3 /* JKRichTextViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8CFCBD8F1AC001FA009492B3 /* JKRichTextView */,
+				8CFCBD6D1AC001EE009492B3 /* AppDelegate.h */,
+				8CFCBD6E1AC001EE009492B3 /* AppDelegate.m */,
+				8CFCBD701AC001EE009492B3 /* ViewController.h */,
+				8CFCBD711AC001EE009492B3 /* ViewController.m */,
+				8C34570D1AD29F4500E3163A /* JKMyRichTextViewDataHandler.h */,
+				8C34570E1AD29F4500E3163A /* JKMyRichTextViewDataHandler.m */,
+				8CFCBD731AC001EE009492B3 /* Main.storyboard */,
+				8CFCBD761AC001EE009492B3 /* Images.xcassets */,
+				8CFCBD781AC001EE009492B3 /* LaunchScreen.xib */,
+				8CFCBD691AC001EE009492B3 /* Supporting Files */,
+			);
+			path = JKRichTextViewDemo;
+			sourceTree = "<group>";
+		};
+		8CFCBD691AC001EE009492B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C3457121AD2A00C00E3163A /* emoji.plist */,
+				8CFCBD6A1AC001EE009492B3 /* Info.plist */,
+				8CFCBD6B1AC001EE009492B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CFCBD821AC001EE009492B3 /* JKRichTextViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CFCBD851AC001EE009492B3 /* JKRichTextViewDemoTests.m */,
+				8CFCBD831AC001EE009492B3 /* Supporting Files */,
+			);
+			path = JKRichTextViewDemoTests;
+			sourceTree = "<group>";
+		};
+		8CFCBD831AC001EE009492B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CFCBD841AC001EE009492B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CFCBD8F1AC001FA009492B3 /* JKRichTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8CFCBD921AC001FA009492B3 /* JKRichTextView.h */,
+				8CFCBD931AC001FA009492B3 /* JKRichTextView.m */,
+				8CFCBD941AC001FA009492B3 /* JKRichTextViewEmojiDataHandler.h */,
+				8CFCBD951AC001FA009492B3 /* JKRichTextViewEmojiDataHandler.m */,
+				8CFCBD961AC001FA009492B3 /* JKRichTextViewLinkBlockDataHandler.h */,
+				8CFCBD971AC001FA009492B3 /* JKRichTextViewLinkBlockDataHandler.m */,
+				8CFCBD981AC001FA009492B3 /* JKRichTextViewLinkDataHandler.h */,
+				8CFCBD991AC001FA009492B3 /* JKRichTextViewLinkDataHandler.m */,
+				8C3457031AD281AD00E3163A /* JKRegularExpressionParser.h */,
+				8CFCBD911AC001FA009492B3 /* JKRegularExpressionParser.m */,
+				8CFCBDA61AC002DE009492B3 /* JKDelegateProxy.h */,
+				8CFCBDA71AC002DE009492B3 /* JKDelegateProxy.m */,
+			);
+			name = JKRichTextView;
+			path = ../../JKRichTextView;
+			sourceTree = "<group>";
+		};
+		EF1C8BEFF63A7602D8216B3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED805F2C04C1EE85AF9B4533 /* Pods-JKRichTextViewDemo.debug.xcconfig */,
+				5A58F897B6A6C4C18A38194D /* Pods-JKRichTextViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CFCBD651AC001EE009492B3 /* JKRichTextViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CFCBD891AC001EE009492B3 /* Build configuration list for PBXNativeTarget "JKRichTextViewDemo" */;
+			buildPhases = (
+				0744F1F2E6B67994B0118B0F /* Check Pods Manifest.lock */,
+				8CFCBD621AC001EE009492B3 /* Sources */,
+				8CFCBD631AC001EE009492B3 /* Frameworks */,
+				8CFCBD641AC001EE009492B3 /* Resources */,
+				DF8494FA47E9E94005DEC444 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRichTextViewDemo;
+			productName = JKRichTextViewDemo;
+			productReference = 8CFCBD661AC001EE009492B3 /* JKRichTextViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CFCBD7E1AC001EE009492B3 /* JKRichTextViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CFCBD8C1AC001EE009492B3 /* Build configuration list for PBXNativeTarget "JKRichTextViewDemoTests" */;
+			buildPhases = (
+				8CFCBD7B1AC001EE009492B3 /* Sources */,
+				8CFCBD7C1AC001EE009492B3 /* Frameworks */,
+				8CFCBD7D1AC001EE009492B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CFCBD811AC001EE009492B3 /* PBXTargetDependency */,
+			);
+			name = JKRichTextViewDemoTests;
+			productName = JKRichTextViewDemoTests;
+			productReference = 8CFCBD7F1AC001EE009492B3 /* JKRichTextViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CFCBD5E1AC001EE009492B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Jackie;
+				TargetAttributes = {
+					8CFCBD651AC001EE009492B3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8CFCBD7E1AC001EE009492B3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8CFCBD651AC001EE009492B3;
+					};
+				};
+			};
+			buildConfigurationList = 8CFCBD611AC001EE009492B3 /* Build configuration list for PBXProject "JKRichTextViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CFCBD5D1AC001EE009492B3;
+			productRefGroup = 8CFCBD671AC001EE009492B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CFCBD651AC001EE009492B3 /* JKRichTextViewDemo */,
+				8CFCBD7E1AC001EE009492B3 /* JKRichTextViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CFCBD641AC001EE009492B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFCBD751AC001EE009492B3 /* Main.storyboard in Resources */,
+				8C3457131AD2A00C00E3163A /* emoji.plist in Resources */,
+				8CFCBD7A1AC001EE009492B3 /* LaunchScreen.xib in Resources */,
+				8CFCBD771AC001EE009492B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFCBD7D1AC001EE009492B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0744F1F2E6B67994B0118B0F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8494FA47E9E94005DEC444 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKRichTextViewDemo/Pods-JKRichTextViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CFCBD621AC001EE009492B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFCBD721AC001EE009492B3 /* ViewController.m in Sources */,
+				8CFCBD9E1AC001FA009492B3 /* JKRichTextView.m in Sources */,
+				8CFCBD6F1AC001EE009492B3 /* AppDelegate.m in Sources */,
+				8CFCBDA81AC002DE009492B3 /* JKDelegateProxy.m in Sources */,
+				8CFCBD6C1AC001EE009492B3 /* main.m in Sources */,
+				8CFCBDA01AC001FA009492B3 /* JKRichTextViewLinkBlockDataHandler.m in Sources */,
+				8CFCBD9F1AC001FA009492B3 /* JKRichTextViewEmojiDataHandler.m in Sources */,
+				8CFCBDA11AC001FA009492B3 /* JKRichTextViewLinkDataHandler.m in Sources */,
+				8C34570F1AD29F4500E3163A /* JKMyRichTextViewDataHandler.m in Sources */,
+				8CFCBD9D1AC001FA009492B3 /* JKRegularExpressionParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFCBD7B1AC001EE009492B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFCBD861AC001EE009492B3 /* JKRichTextViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CFCBD811AC001EE009492B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CFCBD651AC001EE009492B3 /* JKRichTextViewDemo */;
+			targetProxy = 8CFCBD801AC001EE009492B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CFCBD731AC001EE009492B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CFCBD741AC001EE009492B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CFCBD781AC001EE009492B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CFCBD791AC001EE009492B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CFCBD871AC001EE009492B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CFCBD881AC001EE009492B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CFCBD8A1AC001EE009492B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED805F2C04C1EE85AF9B4533 /* Pods-JKRichTextViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRichTextViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CFCBD8B1AC001EE009492B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A58F897B6A6C4C18A38194D /* Pods-JKRichTextViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRichTextViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CFCBD8D1AC001EE009492B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JKRichTextViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRichTextViewDemo.app/JKRichTextViewDemo";
+			};
+			name = Debug;
+		};
+		8CFCBD8E1AC001EE009492B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JKRichTextViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRichTextViewDemo.app/JKRichTextViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CFCBD611AC001EE009492B3 /* Build configuration list for PBXProject "JKRichTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFCBD871AC001EE009492B3 /* Debug */,
+				8CFCBD881AC001EE009492B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CFCBD891AC001EE009492B3 /* Build configuration list for PBXNativeTarget "JKRichTextViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFCBD8A1AC001EE009492B3 /* Debug */,
+				8CFCBD8B1AC001EE009492B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CFCBD8C1AC001EE009492B3 /* Build configuration list for PBXNativeTarget "JKRichTextViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFCBD8D1AC001EE009492B3 /* Debug */,
+				8CFCBD8E1AC001EE009492B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CFCBD5E1AC001EE009492B3 /* Project object */;
+}
