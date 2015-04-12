@@ -65,7 +65,7 @@ static CGSize const JKRichTextViewInvalidedIntrinsicContentSize = (CGSize){-1, -
 
 - (void)_setup {
     [super setDelegate:(id <UITextViewDelegate>)self.delegateProxy];
-    self.shouldPassthoughUntouchableText = YES;
+    self.shouldPassthoughUntouchableText = NO;
     self.shouldAutoDetectDataWhileEditing = YES;
 }
 

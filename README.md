@@ -28,6 +28,12 @@ Check the demo project.
 ###@name or #hashtag
 Just implement your own DataDetectionHandler, just check demo for example.
 
+###REALTIME detect links support
+JKRichTextView can automatically detects emotion text, @name, hashtag or links when you're typing in realtime.
+
+##Change Log
+* Add auto detecting links REALTIME when you're editing the text.
+
 ##License
 	The MIT License (MIT)
 	

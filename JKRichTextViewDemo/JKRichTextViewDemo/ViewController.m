@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
     [self.textView setText:@"Mention @iamjackiecheung if you use JKRichTextView in your project[lol]. Thanks[cry]."];
     [self.textView setCustomLinkWithLinkDidTappedCallback:^BOOL (NSURL *linkURL) {
         

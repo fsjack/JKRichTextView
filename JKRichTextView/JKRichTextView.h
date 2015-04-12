@@ -100,7 +100,7 @@ extern NSString * const JKRichTextViewDetectedDataHandlerAttributeName;
  */
 @property (nonatomic) BOOL shouldAutoDetectDataWhileEditing;
 /**
-    When you put textview on some view, like UITableViewCell, you will found out the cell is totally untouable because UITextView's UserInteractiveEnabled enabled. And you cannot change this property since you need to interact with UITextView, So shouldPassthoughUntouchableText could makes TextView to be transparent to the cell but not to the links. You can still tap the link and you can tap the cell as well. Default is YES.
+    When you put textview on some view, like UITableViewCell, you will found out the cell is totally untouable because UITextView's UserInteractiveEnabled enabled. And you cannot change this property since you need to interact with UITextView, So shouldPassthoughUntouchableText could makes TextView to be transparent to the cell but not to the links. You can still tap the link and you can tap the cell as well. Default is NO.
     @WARNING If you make your text editable, you MUST turn this off otherwise you cannot edit textView normally!!!
  */
 @property (nonatomic) BOOL shouldPassthoughUntouchableText;
