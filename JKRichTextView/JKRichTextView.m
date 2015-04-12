@@ -66,6 +66,7 @@ static CGSize const JKRichTextViewInvalidedIntrinsicContentSize = (CGSize){-1, -
 - (void)_setup {
     [super setDelegate:(id <UITextViewDelegate>)self.delegateProxy];
     self.shouldPassthoughUntouchableText = YES;
+    self.shouldAutoDetectDataWhileEditing = YES;
 }
 
 
@@ -183,13 +184,11 @@ static CGSize const JKRichTextViewInvalidedIntrinsicContentSize = (CGSize){-1, -
                                       
                                       [handler textView:weakSelf didDetectedData:result];
                                       
-                                      NSMutableAttributedString *attributeText = [[NSMutableAttributedString alloc] initWithAttributedString:weakSelf.attributedText];
-
-                                      [attributeText addAttribute:JKRichTextViewDetectedDataHandlerAttributeName
+                                      [weakSelf.textStorage beginEditing];
+                                      [weakSelf.textStorage addAttribute:JKRichTextViewDetectedDataHandlerAttributeName
                                                             value:NSStringFromClass([handler class])
                                                             range:result.range];
-                                      
-                                      [super setAttributedText:attributeText];
+                                      [weakSelf.textStorage endEditing];
                                       
                                       if([handler respondsToSelector:@selector(textView:shouldStopDetecteData:)])
                                           *stop = [handler textView:weakSelf shouldStopDetecteData:result];
@@ -325,6 +324,10 @@ static CGSize const JKRichTextViewInvalidedIntrinsicContentSize = (CGSize){-1, -
     }
     
     return NO;
+}
+
+- (void)textViewDidChange:(UITextView *)textView {
+    if(self.textView.shouldAutoDetectDataWhileEditing) [self.textView startDataDetection];
 }
 
 @end
