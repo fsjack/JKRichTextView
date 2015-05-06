@@ -47,7 +47,7 @@
     if(self.adjustEmojiImageSizeFitToFontSize) {
         UIFont *font = [textView.attributedText attribute:NSFontAttributeName atIndex:checkingResult.range.location effectiveRange:NULL];
         
-        CGFloat emojiimageSizeHeight = abs(font.ascender) + abs(font.descender);
+        CGFloat emojiimageSizeHeight = ABS(font.ascender) + ABS(font.descender);
         CGFloat emojiImageSizeWidth = (emojiimageSizeHeight / emojiImage.size.height) * emojiImage.size.width;
         
         attachment.bounds = CGRectMake(0, 0, emojiImageSizeWidth, emojiimageSizeHeight);
