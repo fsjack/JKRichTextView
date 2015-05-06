@@ -182,7 +182,7 @@ static CGSize const JKRichTextViewInvalidedIntrinsicContentSize = (CGSize){-1, -
                                        range:NSMakeRange(0, self.text.length)
                                   usingBlock:^(JKRegularExpressionResult *result, NSMatchingFlags flags, BOOL *stop) {
                                       
-                                      [handler textView:weakSelf didDetectedData:result];
+                                      [handler textView:weakSelf didDetectData:result];
                                       
                                       [weakSelf.textStorage beginEditing];
                                       [weakSelf.textStorage addAttribute:JKRichTextViewDetectedDataHandlerAttributeName
@@ -190,8 +190,8 @@ static CGSize const JKRichTextViewInvalidedIntrinsicContentSize = (CGSize){-1, -
                                                             range:result.range];
                                       [weakSelf.textStorage endEditing];
                                       
-                                      if([handler respondsToSelector:@selector(textView:shouldStopDetecteData:)])
-                                          *stop = [handler textView:weakSelf shouldStopDetecteData:result];
+                                      if([handler respondsToSelector:@selector(textView:shouldStopDetectingData:)])
+                                          *stop = [handler textView:weakSelf shouldStopDetectingData:result];
                                   }];
     
 }

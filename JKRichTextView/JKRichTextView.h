@@ -65,12 +65,12 @@
 /**
     Get called when the text is finish parsed.
  */
-- (void)textView:(JKRichTextView *)textView didDetectedData:(JKRegularExpressionResult *)checkingResult;
+- (void)textView:(JKRichTextView *)textView didDetectData:(JKRegularExpressionResult *)checkingResult;
 
 /**
-    Return YES will stop calling textView:didDetectedData:.
+    Return YES will stop calling textView:didDetectData:.
  */
-- (BOOL)textView:(JKRichTextView *)textView shouldStopDetecteData:(JKRegularExpressionResult *)checkingResult;
+- (BOOL)textView:(JKRichTextView *)textView shouldStopDetectingData:(JKRegularExpressionResult *)checkingResult;
 
 /**
     handle the URL action here.

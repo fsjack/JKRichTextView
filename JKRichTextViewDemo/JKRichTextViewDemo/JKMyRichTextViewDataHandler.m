@@ -43,7 +43,7 @@
     return JKAtMentionRegularExpression();
 }
 
-- (void)textView:(JKRichTextView *)textView didDetectedData:(JKRegularExpressionResult *)checkingResult {
+- (void)textView:(JKRichTextView *)textView didDetectData:(JKRegularExpressionResult *)checkingResult {
     [textView setCustomLink:[NSURL URLWithString:[NSString stringWithFormat:@"twitter://post?message=%@%%20Awesome!!!", checkingResult.result]] forTextAtRange:checkingResult.range];
 }
 

@@ -28,7 +28,7 @@
     return [NSURL URLWithString:result.result];
 }
 
-- (void)textView:(JKRichTextView *)textView didDetectedData:(JKRegularExpressionResult *)checkingResult {
+- (void)textView:(JKRichTextView *)textView didDetectData:(JKRegularExpressionResult *)checkingResult {
     NSURL *customLinkURL = [self URLForCheckingResult:checkingResult];
     NSAssert(customLinkURL, @"[ERROR] TextView unable to set Nil custom URL link.");
     
