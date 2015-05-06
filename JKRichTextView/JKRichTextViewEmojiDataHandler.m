@@ -32,7 +32,7 @@
     return nil;
 }
 
-- (void)textView:(JKRichTextView *)textView didDetectedData:(JKRegularExpressionResult *)checkingResult {
+- (void)textView:(JKRichTextView *)textView didDetectData:(JKRegularExpressionResult *)checkingResult {
     
     UIImage *emojiImage = [self emojiImageForText:checkingResult.result];
     
