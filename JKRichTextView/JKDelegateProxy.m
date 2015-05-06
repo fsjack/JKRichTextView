@@ -36,17 +36,17 @@
 }
 
 - (void)addDelegateTarget:(id)delegateTarget {
-    if(delegateTarget == self.delegateProxy) {
-        NSLog(@"[WARNING] Failed to set delegate proxy as one of delegate target.");
-        return;
-    }
-    [self.delegateTargets addObject:delegateTarget];
+    NSAssert(delegateTarget != self.delegateProxy, @"Cannot set delegate proxy as one of delegate targets");
+    NSHashTable *delegateTargets = self.delegateTargets.copy;
+    [delegateTargets addObject:delegateTarget];
+    self.delegateTargets = delegateTargets;
 }
 
 - (void)removeDelegateTarget:(id)delegateTarget {
-    [self.delegateTargets removeObject:delegateTarget];
+    NSHashTable *delegateTargets = self.delegateTargets.copy;
+    [delegateTargets removeObject:delegateTarget];
+    self.delegateTargets = delegateTargets;
 }
-
 
 #pragma mark -
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
