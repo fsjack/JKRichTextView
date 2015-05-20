@@ -1,0 +1,5 @@
+language: objective-c
+xcode_sdk: iphonesimulator
+xcode_workspace: JKRichTextViewDemo/JKRichTextViewDemo.xcworkspace
+xcode_scheme: JKRichTextViewDemo
+podfile: JKRichTextViewDemo/Podfile
