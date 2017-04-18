@@ -2,18 +2,18 @@
 
 JKRichTextView can handle image and add link with block.
 
-##Installation
-###CocoaPods
+## Installation
+### CocoaPods
 
 	pod 'JKRichTextView'
 	
-##Usage	
-###Insert Image
+## Usage	
+### Insert Image
 import `<JKRichTextView/JKRichTextView.h>` first.
 
 	[textView insertImage:[UIImage imageNamed:@"JKRichTextView"] size:CGSizeMake(280, 293) atIndex:0];
 	
-###Add custom link with block
+### Add custom link with block
 import `<JKRichTextView/JKRichTextViewLinkBlockDataHandler.h>` first.
 	
 	[textView setCustomLinkWithLinkDidTappedCallback:^BOOL (NSURL *linkURL) {
@@ -21,20 +21,20 @@ import `<JKRichTextView/JKRichTextViewLinkBlockDataHandler.h>` first.
         return YES;
     } forTextAtRange:[self.textView.text rangeOfString:@"Link"]];
 
-###Parse emotion text
+### Parse emotion text
 JKRichTextView can also parse text like [lol] or [cry], and turn it into image.
 Check the demo project.
 
-###@name or #hashtag
+### @name or #hashtag
 Just implement your own DataDetectionHandler, just check demo for example.
 
-###REALTIME detect links support
+### REALTIME detect links support
 JKRichTextView can automatically detects emotion text, @name, hashtag or links when you're typing in realtime.
 
-##Change Log
+## Change Log
 * Add auto detecting links REALTIME when you're editing the text.
 
-##License
+## License
 	The MIT License (MIT)
 	
 	Copyright © 2015 Jackie
